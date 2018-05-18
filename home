@@ -1,0 +1,1814 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	
+	<title>Laida Lertxundi</title>
+	<script type="text/javascript">
+var bustcachevar=1 //bust potential caching of external pages after initial request? (1=yes, 0=no)
+var loadedobjects=""
+var rootdomain="http://"+window.location.hostname
+var bustcacheparameter=""
+
+function ajaxpage(url, containerid){
+var page_request = false
+if (window.XMLHttpRequest) // if Mozilla, Safari etc
+page_request = new XMLHttpRequest()
+else if (window.ActiveXObject){ // if IE
+try {
+page_request = new ActiveXObject("Msxml2.XMLHTTP")
+}
+catch (e){
+try{
+page_request = new ActiveXObject("Microsoft.XMLHTTP")
+}
+catch (e){}
+}
+}
+else
+return false
+page_request.onreadystatechange=function(){
+loadpage(page_request, containerid)
+}
+if (bustcachevar) //if bust caching of external page
+bustcacheparameter=(url.indexOf("?")!=-1)? "&"+new Date().getTime() : "?"+new Date().getTime()
+page_request.open('GET', url+bustcacheparameter, true)
+page_request.send(null)
+}
+
+function loadpage(page_request, containerid){
+if (page_request.readyState == 4 && (page_request.status==200 || window.location.href.indexOf("http")==-1))
+document.getElementById(containerid).innerHTML=page_request.responseText
+}
+
+function loadobjs(){
+if (!document.getElementById)
+return
+for (i=0; i<arguments.length; i++){
+var file=arguments[i]
+var fileref=""
+if (loadedobjects.indexOf(file)==-1){ //Check to see if this object has not already been added to page before proceeding
+if (file.indexOf(".js")!=-1){ //If object is a js file
+fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript");
+fileref.setAttribute("src", file);
+}
+else if (file.indexOf(".css")!=-1){ //If object is a css file
+fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet");
+fileref.setAttribute("type", "text/css");
+fileref.setAttribute("href", file);
+}
+}
+if (fileref!=""){
+document.getElementsByTagName("head").item(0).appendChild(fileref)
+loadedobjects+=file+" " //Remember this object as being already added to page
+}
+}
+}
+
+</script>
+	<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<p>Laida Lertxundi<br />
+<br />
+<br />
+<br />
+<!--
+		<img src="forest.jpg" _wpro_src="forest.jpg" width="270"><br /><br /> --></p>
+
+<div id="holdertwo">
+<div id="screenings"><span class="sectitle">SCREENINGS</span><br />
+<br />
+<i>Words, Planets</i><br> 
+Premiere<br>
+<a href="https://www.redcat.org/event/laida-lertxundi-landscape-plus">REDCAT, Los Angeles,</a><br>
+May 7th, 8:30pm, 2018<br><br>
+<i>025 Sunset Red</i><br>
+<a href="http://www.puntodevistafestival.com/es/ultima_edicion.asp?IdSeccion=81&IdContenido=343">Punto de Vista, Pamplona</a><br>
+March 9th, 20:00, 2018<br><br>
+<i>Vivir Para Vivir / Live to Live</i><br>
+<a href="https://www.cca-glasgow.com/programme/mount-florida-screenings">Center for Contemporary Arts</a><br>
+Glasgow, Scotland <br>
+January 25th, 6:30pm,  2018<br><br>
+<i>025 Sunset Red</i><br>
+<a href="http://www.agedorfestival.be/event/competition-4-56/">&Acirc;ge D’or Film Festival, Belgium</a><br>
+October 21st, 19:00, 2017<br><br>
+<i>025 Sunset Red</i><br>
+<a href="http://ficvaldivia.cl/wp-content/uploads/2017/09/Catalogo-FICVALDIVIA-24-2017.pdf">Festival Internacional de Cine<br>
+de Valdivia, Chile</a><br>
+October 10th, 12pm, 2017<br><br>
+<i>025 Sunset Red</i><br>
+<a href="https://www.cinespagnol.com/programmation/edition-2017/competition/courts-metrages/programme-3-acarino-de-las-dos-espanas/">Cinespa&ntilde;a, Touluse, France</a><br>
+October 1st, 16:45, 2017<br><br>
+<i>025 Sunset Red</i><br>
+<a href="https://www.25fps.hr/en/program/2017/competition">25fps, Zagreb, Croatia</a><br>
+September 29th, 18:00, 2017<br><br>
+<i>025 Sunset Red</i>,<br>
+<i>Cry When it Happens</i>,<br>
+<i>Footnotes to a House of Love</i>,<br>
+<a href="http://www.wherevent.com/detail/Rubicon-Cinema-Rubicon-Cinema-Season-3-E1-Laida-Lertxundi-and-Roger-Beebe">Rubicon Cinema, Akron, Ohio</a><br>
+September 23rd, 8pm, 2017<br><br>
+<i>025 Sunset Red</i><br>
+<a href="http://ex-is.org/exnow/">Exis Moving Image Forum<br>
+Korean Archive</a><br>
+July 18th, 2pm, 2017<br><br>
+<i>025 Sunset Red</i><br>
+<a href="http://limaindependiente.com.pe/2016/competencia-fronteras-destruidas.html">Lima Independiente<br>
+Festival Internacional<br>
+de Cine, Peru</a><br>
+June 30th, 21:00, 2017<br><br>
+<i>025 Sunset Red</i><br>
+La Casa Encendida<br>
+<a href="http://filmadrid.com/?s=025+sunset+red&lang=es">FilMadrid</a><br>
+June 14th, 20:30, 2017<br><br>
+<i>025 Sunset Red</i><br>
+Crossroads Festival<br>
+<a href="https://www.sfmoma.org/event/program-3-great-unknown-called-trust/">SF MOMA</a><br>
+May 20th, 1:45pm, 2017<br><br>
+<i>Vivir para Vivir / Live to Live</i><br>
+<a href="http://imaginarymusics.com/program/"><i>Imaginary Musics</i></a><br>
+St Gallen, Switzerland<br>
+May 6th, 20:00, 2017<br><br>
+<i>025 Sunset Red</i><br>
+<a href="http://eng.jiff.or.kr/program/program_view.asp?MI_IDX=3652&reUrl=program_search%2Easp%3Fsec1%3D0%26sec2%3D0%26sText%3D+lertxundi%26sType%3D%26NT%3D%26PAGE%3D1">Jeonju Intl. Film Festival</a><br>
+South Korea<br>
+May 3rd, 13:30, 2017<br><br>
+<i>My Tears Are Dry</i><br>
+with films by<br> 
+Apichatpong Weerasethakul, <br>
+Chick Strand and George Clark<br>
+<a href="http://www.visionsmtl.com/george-clark.html">la lumi&egrave;re collective</a>, Montreal<br>
+April 30th, 8pm, 2017<br><br>
+<i>025 Sunset Red</i><br>
+<a href="http://www.lachapelle-saint-jacques.com/fr/content/let-us-reflect-festival">Chapelle Saint-Jacques <br>
+Centre d&lsquo;art contemporain, France</a><br>
+April 29th, 20:00, 2017<br><br>
+<a href="https://www.humanities.uci.edu/visualstudies/calendar/news.php?recid=3344"><i>Into the Sun: The Light and<br> 
+Atmospherics of the American West</i></a><br>
+UCI Visual Studies Conference<br>
+Key Note Speech and Screening<br>
+April 27th, 3:30pm, 2017<br><br>
+5 Films by Laida Lertxundi<br>
+<a href="http://www.walkerart.org/calendar/2017/five-short-films-laida-lertxundi">Walker Art Center</a><br>
+Minneapolis<br>
+April 25th, 6pm, 2017<br><br>
+Artist Talk and Screening<br>
+by Laida Lertxundi<br>
+<a href="https://events.umn.edu/Online/default.asp?BOparam::WScontent::loadArticle::permalink=event_b&BOparam::WScontent::loadArticle::context_id=9211E6D7-3A10-4E54-9767-75823CB724D5">University of Minnesota</a><br>
+April 24th, 7pm, 2017<br><br>
+Acts without words, correspondence<br> 
+without a sender. From Morgan Fisher<br>
+and Thom Andersen to Laida Lertxundi<br>
+<a href="http://www.cccb.org/en/activities/file/acts-without-words-correspondence-without-a-sender-from-morgan-fisher-and-thom-andersen-to-laida-lertxundi/225943">Xc&egrave;ntric, CCCB, Barcelona</a><br>
+April 2nd, 18:30, 2017<br><br>
+<i>025 Sunset Red</i> with films<br>
+by Chantal Akerman<br>
+Vanalyne Green and Vivienne Dick<br>
+<a href="http://www.courtisane.be/en/event/09-akerman-dick-green-lertxundi">Courtisane Film Festival</a><br>
+Ghent, Beligum<br>
+April 1st, 13:30, 2017<br/><br>
+<i>025 Sunset Red</i> Bay Area premiere<br>
+ with films by Patt O&rsquo;Neill,<br>
+Peter Hutton and Cauleen Smith<br>
+<a href="http://canyoncinema50.org/events/upcoming-events/3-15-17-landscape-plus-presented-by-laida-lertxundi/">Canyon Cinema Salon</a><br>
+March 15th, 7pm, 2017<br><br>
+<i>Landscape Plus</i><br>
+films by Laida Lertxundi<br>
+<a href="http://calendar.duke.edu/events/show?fq=id%3ACAL-8a0870ee-5a64e7e5-015a-66a2625f-00004063demobedework%40mysite.edu">Duke University</a><br>
+March 1st, 7pm, 2017<br><br>
+<i>Paisaje y Mas</i> presentation<br>
+<a href="http://www.uh.cu/node/5023">Instituto Superior de Arte</a><br>
+La Habana, Cuba<br>
+February 24th, 2017<br><br>
+<i>025 Sunset Red</i> NY premiere<br>
+in <i>Modern Mondays</i><br>
+<a href="https://www.moma.org/calendar/events/2761?locale=en">Museum of Modern Art, NY</a><br>
+February 6th, 7pm, 2017<br><br>
+<i>025 Sunset Red</i><br>
+<a href="https://iffr.com/nl/node/68634">International Film Festival Rotterdam</a><br>
+January 27th and 29th, 2017<br><br>
+<i>Vivir para Vivir / Live to Live</i><br>
+<a href="http://www.uplink.co.jp/event/2016/46429">Uplink Theater</a>, Tokyo<br>
+November 23rd, 2016<br><br>
+<i>Vivir para Vivir / Live to Live</i><br>
+<a href="http://www.kasselerdokfest.de/assets/Katalog/33Dokfest_Programm_161027_1002_o.pdf">Kassel Documentary Film <br>
+& Video Festival</a><br>
+November 18th, 11:15, 2016<br><br>
+Laida Lertxundi: Five Films<br>
+<a href="http://www.tate.org.uk/whats-on/tate-modern/film/laida-lertxundi-five-films">Tate Modern, London</a><br>
+November 9th, 18:30, 2016<br><br>
+<i>Vivir para Vivir / Live to Live</i><br>
+<a href="http://www.cinematek.be/ftp/print-pr/AgeDor-EXPRMNTLFILMFESTIVAL_2016.pdf">&Acirc;ge d&rsquo;Or Festival</a><br>
+October, 6th, 2016<br><br>
+<i>025 Sunset Red</i> premiere<br> 
+<a href="http://www.tiff.net/events/wavelengths-1-the-fire-within/">Toronto International Fim Festival</a><br>
+September 9th, 7:30pm, 2016<br><br>
+<i>Vivir para Vivir/ Live to Live</i><br />
+<a href="http://www.nowehoryzonty.pl/film.do?id=8742&amp;ind=edycjaFest%3d16%26typOpisu%3d0%26typ%3dtyt%26page%3d0%26tytul%3dlertxundi">New Horizons International<br />
+Film Festival</a>, Warsaw, Poland<br />
+July 23rd, 13:00, 2016<br />
+<br />
+<i>Vivir para Vivir/ Live to Live</i><br />
+<a href="http://festival.curtas.pt/program/2016/competition/experimental/3/">Curtas Vila do Conde, Portugal</a><br />
+July 15th, 18:30, 2016<br />
+<br />
+<i>Vivir para Vivir/ Live to Live</i><br />
+<a href="http://ex-is.org/exnow">Ex-Is Experimental Film and Video</a><br />
+Festival, Seoul, Korea<br />
+July 12th, 4:30pm, 2016<br />
+<br />
+<i>Vivir para Vivir/ Live to Live</i><br />
+<a href="http://www.accioncultural.es/es/lima_independiente_2016_festival_internacional_cine">Festival de Cine Lima</a><br />
+Independiente, Peru<br />
+July 3rd, 4pm, 2016<br />
+<br />
+<i>Vivir para Vivir/ Live to Live</i><br />
+<a href="http://filmadrid.com/catalogo/vivir-para-vivir-live-to-live/">FilMadrid, Spain</a><br />
+June 10th, 18:00, 2016<br />
+<br />
+<i>Here We Together</i><br />
+Laida Lertxundi&rsquo;s films curated<br />
+by Tomonari Nishikawa<br />
+<a href="https://www.facebook.com/events/1699288030338434/">Asagaya College of Design</a><br />
+and Art, Tokyo, Japan<br />
+May 13th, 5:30pm, 2016<br />
+<br />
+<i>My Tears Are Dry</i><br>
+<a href="https://www.kurzfilmtage.de/en/festival/sections/distributors/lux-great-britain/">Oberhausen Short Film Festival</a><br>
+May, 11th, 2016<br><br>
+<i>Vivir para Vivir / Live to Live</i><br />
+<a href="http://www.sfcinematheque.org/screenings/crossroads-2016-april-1-3/">Crossroads, SF Cinematheque</a><br />
+April 3rd, 8pm, 2016<br />
+<br />
+<i>Vivir para Vivir / Live to Live</i><br />
+with film by Sharits and Gibson<br />
+<a href="http://www.courtisane.be/en/event/13-arnfield-gibson-clark-lertxundi-sharits">Courtisane Film festival</a><br />
+March 27th, 13:30, 2016<br />
+<br />
+<i>Vivir para Vivir / Live to Live</i><br />
+<a href="http://aafilmfest.org/54/events/films_in_competition_4/">Ann Arbor Film Festival</a><br />
+March 18th, 7:15pm, 2016<br />
+<br />
+<i>Vivir para Vivir / Live to Live</i><br />
+with films by Tony Conrad<br />
+curated by Beatrice Gibson<br />
+in <a href="http://www.arnolfini.org.uk/whatson/cadenza-beatrice-gibson">Arnolfini, Bristol, UK</a><br />
+March 6th, 7pm, 2016<br />
+<br />
+<i>Vivir para Vivir / Live to Live</i><br />
+in <i>Opacities</i> with films by<br />
+Chick Strand and Ben Rivers<br />
+<a href="http://www.collectivegallery.net/archive/2016-opacities">Collective Gallery, Scottland</a><br />
+February 6th, 2016, 7pm, 2016<br />
+<br />
+<i>Vivir para Vivir / Live to Live</i><br />
+<a href="https://iffr.com/en/professionals/blog/as-long-as-it-takes-2016-short-film-selection">International Film Festival Rotterdam</a><br />
+January 29th and 31st, 2016<br />
+<br />
+<i>My Tears Are Dry</i><br />
+in <i>Little Stabs of Happiness</i><br />
+with films by Thom Andersen<br />
+curated by Mark Webber<br />
+<a href="http://shortfilms.org.uk/events/2016-01-15-special-event-little-stabs-at-happiness">ICA, London</a><br />
+January 15th, 2016, 8pm<br />
+<br />
+<i>Cry When It Happens </i><br />
+<a href="http://www.elmamm.org/?p=182">Museum of Modern Art<br />
+Medell&iacute;n Colombia</a><br />
+curated by George Clark<br />
+November 5th-14th, 2015<br />
+<br />
+<i>Vivir para Vivir / Live to Live</i><br />
+Experimenta, London Film Festival<br />
+<a href="https://whatson.bfi.org.uk/lff/Online/default.asp?BOparam::WScontent::loadArticle::permalink=scores">British Film Institute, London</a><br>
+October 17th, 6:30pm, 2015<br />
+<i>filmmaker in attendance</i><br />
+<br />
+<i>Vivir para Vivir / Live to Live</i><br />
+premieres at <a href="https://www.filmlinc.org/nyff2015/films/projections-2015-program-6/">NYFF Projections</a><br />
+Film Society of Lincoln Center<br />
+October 4th, 5:30pm, 2015<br />
+<i>filmmaker in attendance</i><br />
+<br />
+<i>Contactos</i> by Paulino Viota<br />
+with films by Laida Lertxundi<br />
+and Alberto Cabrera Bernal<br />
+<a href="http://laolashowcase.com/">L.A. Ola, Echo Park Film Center</a><br />
+Los Angeles, California<br />
+September 26th, 1pm, 2015<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+Chicago Premiere<br />
+<a href="http://dincavisionquest.com/program">Dinca Vision Quest</a><br />
+September 11th, 2015<br />
+<br />
+<i>My Tears Are Dry</i> with films<br />
+by Pat O&#39;Neill, Chick Strand,<br />
+Thom Andersen and others.<br />
+Curated by Mark Toscano<br />
+and Becca Keating in <a href="http://www.mini-cinema.org/screenings/2015/8/27/becca-keating-mark-toscano-screening-1">Cincinnati</a><br />
+August 27th, 7pm, 2015<br />
+<br />
+<i>Footnotes to a House of Love</i><br />
+<a href="http://www.independentcinemaoffice.org.uk/filmprogramming/">Independent Cinema Office</a><br />
+London, UK<br />
+August 15th, 2015<br />
+<br />
+<i>Footnotes to a House of Love</i><br />
+with films by Maya Deren<br />
+and Beatrice Gibson<br />
+Collective Gallery<br />
+<a href="https://www.edfilmfest.org.uk/films/2015/collective-and-lux-scotland-present-rhyme-or-reason/full-details">Edinburgh Film Festival</a><br />
+June 25th, 20:20, 2015<br />
+<br />
+<i>Utskor: Either/Or</i><br />
+with works by Deborah<br />
+Stratman, Michael Robinson<br />
+July Murray and others<br />
+<a href="https://www.facebook.com/LaVideoShop/info?tab=page_info">La Vid&eacute;oshop, Paris</a><br />
+June 19th, 19:00, 2015<br />
+<br />
+<i>We Had the Experience But<br />
+Missed the Meaning</i> in<br />
+<a href="http://filmadrid.com/catalogo/we-had-the-experience-but-missed-the-meaning/">Filmadrid, La Casa Encendida</a><br />
+June 11th, 20:00, 2015<br />
+<br />
+<i>Utskor: Either/Or</i><br />
+with films by Rose Lowder,<br />
+Richard Tuohy, Esther Urlus,<br />
+Fern Silva and others<br />
+<a href="http://www.kurzfilmtage.de/en/festival/sections/distributors/light-cone-france/?fb_locale=ja_JP&amp;print=1&amp;cHash=2d7309b70ff6a76c2737268cb8ba08dd">Oberhausen Film Festival</a><br />
+May 2nd, 14:30, 2015<br />
+<br />
+<i>Landscape Plus</i><br />
+films by Alee Peoples,<br />
+Michael Robinson and<br />
+Laida Lertxundi<br />
+<a href="http://noticiasplaytime.blogspot.com.es/2015/02/laida-lertxundi-landscape-plus-en-madrid.html">Espacio Labruc, Madrid</a><br />
+March 3rd, 20:00, 2015<br />
+filmmaker in attendance<br />
+<br />
+<i>My Tears Are Dry</i> in<br />
+<i>She Makes Noise</i>,<br />
+with works by Beatrice Gibson,<br />
+Jeanne Liotta and Vicki Bennett<br />
+Curated by Playtime<br />
+<a href="http://www.lacasaencendida.es/es/eventos/she-makes-noise-sesion-audiovisual-3-programa-piezas-cortas-4246">La Casa Encendida, Madrid</a><br>
+March 1st, 19:00, 2014<br />
+filmmaker in attendance<br />
+<br />
+<i>The Room Called Heaven</i><br />
+in <i>Stateland: American<br />
+Artists&rsquo; Filmmaking Now</i><br />
+<a href="http://www.whitechapelgallery.org/events/stateland-american-artists-filmmaking-now/">White Chapel Gallery London</a><br>
+February 12th,&nbsp;7pm, 2014<br />
+<br />
+<i>Cry When It Happens</i><br />
+in <i>Time, A Hesitant Smile</i><br />
+Curated by Jacqui Davies<br />
+and Joseph Constable<br />
+<a href="http://www.swansea.gov.uk/article/11287/Time-a-Hesitant-Smile">Glynn Vivian Gallery</a><br />
+Swansea, Wales<br />
+Febraury 5th, 6:30pm, 2015<br />
+<br />
+<i>Utskor: Either/Or </i><br />
+Curated by Joasia Raczynska<br />
+<a href="http://www.nga.gov/content/ngaweb/calendar/film-programs/oberhausen14/one.html">National Gallery of Art</a><br />
+Washington D.C.<br />
+January 3rd, 2pm, 2015<br />
+<br />
+<i>Utskor:Either/Or</i> with films<br />
+by Jodie Mack, Basma Alsharif<br />
+and more presented by La Furia Umana<br />
+at <b>Cin&eacute;ma Saint-Andr&eacute; des Arts, Paris</b><br />
+December 14th, 18:40, 2014<br />
+<br />
+<i>Llora Cuando Te Pase//<br />
+Cry When It Happens</i><br />
+with films by<br />
+Apichatpong Weerasethakul,<br />
+Anri Sala, Ben Rivers and others<br />
+in <i>Time, A Hesitant Smile</i><br />
+Curated by Jacqui Davies<br />
+and Joseph Constable<br />
+<a href="http://www.jacquidavies.com/#!time-a-hesitant-smile/c4d9">Hackney Picture House, London</a><br />
+November 27th, 6:30pm, 2014<br />
+<br />
+<i>Landscape Plus</i><br />
+films by Laida Lertxundi<br />
+<a href="http://www.gijonfilmfestival.com/page/13977-ficxlab">Gij&oacute;n Film Festival</a><br />
+November 24th, 20:15, 2014<br />
+<br />
+<i>Utskor: Either/Or</i><br />
+in <i>Sound Matters</i><br />
+with films by Babette Mangolte<br />
+Deborah Stratman and others<br />
+<a href="http://sightunseenbaltimore.com/11-21-CJC-presents-SOUND-MATTERS">Sight Unseen, Baltimore</a><br />
+November 21st, 9pm, 2014<br />
+<br />
+<i>Footnotes to a House of Love,<br />
+The Room Called Heaven, </i><br />
+and <i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+with films by Beatrice Gibson<br />
+<a href="http://lux.org.uk/whats-on/events/lux-salon-laida-lertxundi-beatrice-gibson-films-dialogue">LUX</a><br />
+October 22nd, 7:00pm, 2014<br />
+Filmmaker in person<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+<a href="https://whatson.bfi.org.uk/lff/Online/default.asp?doWork::WScontent::loadArticle=Load&amp;BOparam::WScontent::loadArticle::article_id=E97DCCFF-98A4-416A-AFAD-A5F882441848&amp;BOparam::WScontent::loadArticle::context_id=8DB5A4C7-A257-43C6-8301-C03AAFB12CE6">BFI London Film Festival</a><br />
+October 19th, 6:45pm, 2014<br />
+Filmmaker in person<br />
+<br />
+<i>The Room Called Heaven </i><br />
+with films by Chantal Akerman<br />
+Robert Beavers and more<br />
+<a href="http://www.cinematek.be/?node=17&amp;event_id=300223400">Cinematek Belgium</a><br />
+October 13th, 19:00, 2014<br />
+<br />
+<i>Often During the Day<br />
+Feminist Feelings,<br />
+Domestic Affect</i><br />
+curated by Beth Capper<br />
+and Jessica Bardsley<br />
+<i>A Lax Riddle Unit</i><br />
+and <i>My Tears Are Dry</i><br />
+showing with films by<br />
+Mati Diop, Ximena Cuevas,<br />
+Cynthia Maughan<br />
+<a href="https://www.facebook.com/events/798656950191200/?notif_t=plan_user_invited">Brown University</a><br />
+October 9th, 7pm, 2014<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+<a href="http://25fps.hr/en/we-had-the-experience-but-missed-the-meaning.html">25 fps, Zagreb</a><br />
+September 25th, 21:00, 2014<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+<a href="http://fronteirafestival.com/2014/film/1589/">Fronteira Film Festival, Brazil</a><br />
+September 1st, 20:00, 2014<br />
+<br />
+<i>Cry When It Happens</i><br />
+with films by James Benning,<br />
+Ben Rivers, Chantal Akerman<br />
+among others in<br />
+<i>A Paradise Built in Hell<br />
+The 16mm Film Format in the<br />
+Context of Current Image Production</i><br />
+curated by Bettina Steinbr&uuml;gge<br />
+<a href="http://www.kunstverein.de/englisch/exhibitions/current/20140627.php">Kunstverein in Hamburg</a><br />
+August 19th, 18:00, 2014<br />
+<br />
+<i>Utskor: Either/Or</i><br />
+with films by Ben Russell,<br />
+Basma Alsharif and John Smith<br />
+<a href="http://mediacityfilmfestival.com/mcff20/international-program-3/">Media City Film Festival</a><br />
+Windsor, Canada<br />
+July 10th, 9:30pm, 2014<br />
+<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://imageforumfestival.com/program_YOKOHAMA02_en">Image Forum Festival</a><br />
+by Tomonari Nishikawa<br />
+Yokohama, Japan<br />
+June 28th, 18:30, 2014<br />
+<br />
+<i>Utskor: Either/ Or</i><br />
+in Languages of Intimacy<br />
+<a href="http://www.edfilmfest.org.uk/films/2014/languages-of-intimacy">Edinburgh International Film Festival</a><br />
+June 28th, 15:45, 2014<br />
+<br />
+New York Premiere of<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+with L for Leisure at <a href="http://www.bam.org/film/2014/l-for-leisure">BAMcinemafest<br />
+Brooklyn Academy of Music, NY</a><br />
+June 25th, 9:30pm, 2014<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+with <i>Under the Skin</i><br />
+at David Lynch&amp;s theater,<br />
+<a href="http://silencio-club.com/en/"><i>El Silencio</i>, Paris</a><br />
+June 18th-June 21st, 2014<br />
+<br />
+<i>A Landing Site for Madaleine Gins</i><br />
+artists and architects read Gins<br />
+<a href="http://mviegener.com/hosting-a-reading-for-madeline-gins-at-lacma/">Los Angeles County Museum of Art</a><br />
+organized by Matias Viegener<br />
+May 27th, 2pm, 2014<br />
+<br />
+<i>My Tears Are Dry</i><br />
+with films by Thom Andersen<br />
+and others <a href="http://festivaledoc.org/programa-2/">EDOC, Ecuador</a><br />
+May 25th, 15:15, Quito<br />
+May 25th, 15:30, Guayaquil<br />
+May 28th, 18:30, Quito, 2014<br />
+<br />
+<i>Footnotes to a House of Love</i> and<br />
+<i>Cry When it Happens</i><br />
+Al&rsquo;s Grand Hotel<br />
+<a href="http://friezeprojectsny.org/projects/als-grand-hotel-1971-2014/">Frieze Projects New York</a><br />
+curated by Lauren Mackler<br />
+Frieze Art Fair May 2-8, 2014<br />
+<br />
+<i>Utskor: Either/Or</i><br />
+<a href="http://www.kurzfilmtage.de/index.php?id=5835">International Film Festival Oberhausen</a><br />
+May 6th, 14:30 and 16:00, 2014<br />
+<br />
+<i>My Tears Are Dry</i> and<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://ambulante.com.mx/en/more/program/?ciudad=oaxaca">Ambulante Gira de Documentales</a><br />
+curated by Ben Russell<br />
+Oaxaca, April 24th, 20:30<br />
+April 25th, 19:00, 2014<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+<a href="http://www.sfcinematheque.org/screenings/crossroads-2014-program-9/">Crossroads Festival</a><br />
+Victoria Theater, San Francisco<br />
+April 6th, 5pm, 2014<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+and <i>Utskor: Either/ Or</i><br />
+<a href="http://www.courtisane.be/en/event/05-lertxundi-beydler-baillie-dorsky-cuesta">Courtisane Film Festival<br />
+Ghent, Belgium</a><br />
+April 4th, 17:30, 2014<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+<a href="http://aafilmfest.org/52/films/we_had_the_experience_but_missed_the_meaning/">Ann Arbor Film Festival</a><br />
+March 29th, 1pm, 2014<br />
+<br />
+<i>Footnotes to a House of Love</i>,<br />
+<i>Utskor: Either/ Or</i> and <i>The Room<br />
+Called Heaven</i> with films by<br />
+Peggy Ahwesh, Beatrice Gibson<br />
+and Mary Helena Clark.<br />
+In conversation with Genevieve Yue<br />
+<a href="http://www.lightindustry.org/lertxundi">Light Industry, Brooklyn, New York</a><br />
+March 25th, 7:30 pm, 2014<br />
+<br />
+<i>The Room Called Heaven</i><br />
+and <i>Cry When It Happens</i><br />
+in <i>El Cine Revelado</i><br />
+with films by Jeanne Liotta,<br />
+and Alberto Cabrera Bernal<br />
+<a href="http://www.ca2m.org/en/film-and-video/cinema-revealed/1458-el-cine-revelado">CA2M, Madrid</a><br />
+March 2nd, 18:30, 2014<br />
+<br />
+Conversaci&oacute;n con<br />
+Laida Lertxundi y<br />
+Usoa Fullaondo<br />
+Sala de Exposiciones<br />
+<a href="https://www.alhondigabilbao.com/web/guest/503/-/journal_content/56_INSTANCE_aJV5/10140/4017227">La Alh&oacute;ndiga, Bilbao, Spain</a><br />
+26 de Febrero, 7pm, 2014<br />
+<br />
+First Person Cinema<br />
+Laida Lertxundi<br />
+<a href="https://www.internationalfilmseries.com/first_person_cinema/schedules/2014-02.php">University of Colorado Boulder</a><br />
+February 17th, 7pm, 2014<br />
+Filmmaker in person<br />
+<br />
+<i>The Room Called Heaven</i><br />
+and <i>Footnotes to a House of Love</i><br />
+with films by Enrique Ramirez,<br />
+Ivan Marino and Aya Eliav<br />
+<i>Movie Night, Number One: People</i><br />
+curated by Oliver Basciano at<br />
+<a href="http://projectnativeinformant.com/?project=movie-night-number-one">Project Native Informant, London, UK</a><br />
+January 28th, 19:00, 2014<br />
+<br />
+<i>We Had the Experience<br />
+but Missed the Meaning</i><br />
+Film Premiere<br />
+<a href="http://www.filmfestivalrotterdam.com/en/combinedprogrammes/resonating-spaces-2014/">International<br />
+Film Festival Rotterdam</a><br />
+January 25th, 14:45<br />
+January 26th, 19:45, 2014<br />
+Filmmaker in person<br />
+<br />
+<i>Utskor: Either/Or</i> and<br />
+<i>The Room Called Heaven</i><br />
+with a reading by Amina Cain<br />
+<a href="http://www.makcenter.org/MAK_Exhibitions_Images_Pop.php?e=427">MAK Schindler House</a><br />
+Los Angeles<br />
+January 8th, 7pm, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+in a show curated by<br />
+Emmanuel Lefrant<br />
+at <a href="http://www.le-bal.fr/fr/mh/le-bal-lab/la-jeune-garde-du-cinema-experimental/">LeBal, Paris</a><br />
+December 17th, 20:00, 2013<br />
+<br />
+<i>Utskor: Either/Or</i><br />
+<a href="http://www.bam.org/film/2013/migrating-forms-program-two">Migrating Forms, New York</a><br />
+December 13th, 9:45pm, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>Footnotes to a House of Love</i>,<br />
+<i>My Tears Are Dry</i>,<br />
+<i>Llora Cuando Te Pase</i><br />
+and <i>A Lax Riddle Unit</i>,<br />
+<a href="http://www.biennaledelyon.com/uk/week-ends/video.html">Lyon Biennale, France</a><br />
+December 1st, 17:15, 2013<br />
+<br />
+<i>My Tears Are Dry</i><br />
+screens in conjunction<br />
+with the exhibition<br />
+<i>Mark Cohen, Dark Knees</i><br />
+at <a href="http://lightcone.org/en/news-310-all-my-life-seance-amerika-light-cone-le-bal">Le Bal, Paris</a><br />
+curated by Lightcone<br />
+November 26th, 20:00, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://www.ozufilmfestival.com/events/ozu-tatami-shot-9/">Ozu Film Festival</a><br />
+Sassuolo, Italia<br />
+November 24th, 9:30pm, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+with films by Jennifer Reeder,<br />
+Lori Felker, Jennifer Reeves,<br />
+Ben Russell and more in<br />
+<a href="http://visionquest.dinca.org/#saturday528818f1e4b0b47185d53af2">Vision Quest, curated by<br />
+Andrew Rosinski, Chicago</a><br />
+November 23rd, 7pm, 2013<br />
+<br />
+<i>Tres Tristes Tigres</i><br />
+Expanded Cinema performance<br />
+film screening and music<br />
+by Tooth, Laura Steenberge<br />
+and Laida Lertxundi<br />
+<a href="http://www.headlands.org/">Headlands Center for the Arts</a><br />
+November 18th, 8pm, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>The Room Called Heaven</i><br />
+Festival de Nuevo Cine Espa&ntilde;ol,<br />
+<a href="http://www.salaberlanga.com/un-nuevo-cine-espanol-en-festivales-internacionales/">Sala Berlanga, Madrid</a><br />
+November 17th, 18:30, 2013<br />
+<br />
+<i>Back to the Homeland of Gesture</i>,<br />
+films by Harun Farocki,<br />
+Beatrice Gibson, Jean-Claude Rousseau<br />
+and Laida Lertxundi<br />
+<a href="http://www.ybca.org/back-homeland-gesture">Yerba Buena Center for the Arts</a><br />
+November 10th, 2pm, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>Utskor: Either / Or</i><br />
+Film Premiere<br />
+<a href="http://www.filmlinc.com/films/on-sale/program-16-lage-dor">New York Film Festival<br />
+Views of the Avant Garde</a><br />
+October 5th, 12pm, 2013<br />
+<br />
+<i>Footnotes to a House of Love</i>,<br />
+<i>My Tears Are Dry</i>,<br />
+<i>A Lax Riddle Unit</i> and<br />
+<i>The Room Called Heaven</i><br />
+with works by Morgan Fisher,<br />
+Gary Beydler, Fred Worden<br />
+and Chris Langdon<br />
+<a href="http://25fps.hr/en/program.html">25fps, Zagreb</a><br />
+September 26th - 30th, 2013<br />
+<br />
+<i>My Tears Are Dry</i><br />
+with works by Bruce Baillie,<br />
+Ron Rice and others, curated by<br />
+Ben Rivers and Ben Russell<br />
+for <a href="http://www.momaps1.org/expo1/event/a-spell-to-ward-off-the-darkness-ii-collectivity-or-utopia-is-a-social-body-cont/">PS1 MoMa</a><br />
+June 30th, 9:30pm, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://www.edfilmfest.org.uk/films/2013/black-box-1-in-action">Edinburgh International Film Festival </a><br />
+June 25th, 21:45, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+with works by Ben Russell,<br />
+Stan Brakhage and Marjorie Keller<br />
+<a href="http://www.s8cinema.com/portal/en/edicion-2013/a-segunda-vida-das-imaxes/lo-desconocido-cine-percepci%C3%B3n-y-estados-alterados/">S8 Cinema, A Coru&ntilde;a</a><br />
+June 5th, 18:30, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+with works by Ben Russell,<br />
+Stan Brakhage and Marjorie Keller<br />
+<a href="https://www.lacasaencendida.es/page/id-1-1143-0-102075-442288-102076-0.go">La Casa Encendida, Madrid</a><br />
+June 2nd, 19:00, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+with works by Ben Russell,<br />
+Stan Brakhage and Marjorie Keller<br />
+<a href="http://tabakalera.eu/Actividades/proximas/ciclo-de-cine-experimental-con-ben-russell-ben-rivers-y-garbie-ortega/subsubseccion,0/subseccion,12&amp;actividad=131/">Tabakalera, San Sebastian</a><br />
+May 30th, 19:00, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+curated by Esperanza Collado<br />
+with works by Hollis Frampton<br />
+and James Benning<br />
+<a href="http://www.ifi.ie/film/ifi-experimental-film-club-unrolling-processes/">Irish Film Institute, Dublin</a><br />
+May 28th, 18:30, 2013<br />
+<br />
+<i>Footnotes to a House of Love</i>,<br />
+<i>My Tears Are Dry</i>,<br />
+<i>Cry When It Happens</i>,<br />
+<i>A Lax Riddle Unit</i> and<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://www.kinoartbrno.cz/">Kino Art Brno, Czech Republic</a><br />
+May 9th, 20:00, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>The Room Called Heaven</i><br />
+International Competition<br />
+<a href="http://www.kurzfilmtage.de/index.php?id=5064">Internationale Kurzfilmtage Oberhausen</a><br />
+May 7th, 14:30 and 17:00, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>Llora Cuando Te Pase //<br />
+Cry When It Happens</i><br />
+with films by Lynda Benglis,<br />
+Lori Felker, Shana Moulton<br />
+and Michael Robinson<br />
+<a href="http://www.mocp.org/events/index.php">Museum of Contemporary<br />
+Photography, Chicago</a><br />
+May 1st, 6pm, 2013<br />
+<br />
+<i>Footnotes to a House of Love</i>,<br />
+<i>My Tears Are Dry</i>,<br />
+<i>Cry When It Happens</i>,<br />
+<i>A Lax Riddle Unit</i> and<br />
+<i>The Room Called Heaven</i><br />
+<b>Bard College</b><br />
+April 25th, 5pm, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>Footnotes to a House of Love</i>,<br />
+<i>My Tears Are Dry</i>,<br />
+<i>Cry When It Happens</i>,<br />
+<i>A Lax Riddle Unit</i> and<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://calendar.binghamton.edu/index.php/calendar/event/8b66cac34abbfa603e513743d74eba51">Binghamton University</a><br />
+April 23rd, 7:30pm, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://www.indielisboa.com/movie_detail.php?lang=2&amp;movie=101548">Indie Lisboa</a><br />
+April 21st, 10pm, 2013<br />
+April 25th, 7:15pm, 2013<br />
+<br />
+<i>A Lax Riddle Unit</i><br />
+<a href="http://www.artbma.org/calendar/films.html#Contemporary">Baltimore Museum of Art</a><br />
+April 20th, 2pm, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+with works by Pieter Dumoulin<br />
+and Sergei Loznitsa<br />
+<a href="http://www.courtisane.be/en/event/selection-5-absence">Courtisane Film Festival, Belgium</a><br />
+April 18th, 20:00, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+with works by Mary Helena Clark,<br />
+Gunvor Nelson and Stan Brakhage<br />
+<a href="http://guide.wifilmfest.org/2013/Program.aspx?id=2909">University of Wisconsin Cinematheque</a><br />
+Wisconsin Film Festival<br />
+April 14th, 9:30pm, 2013<br />
+<br />
+<i>My Tears Are Dry</i><br />
+with works by David Gatten,<br />
+Dorothy Wiley, Luther Price,<br />
+Bobby Abate and Dani Leventhal<br />
+<a href="http://guide.wifilmfest.org/2013/Program.aspx?id=2898">University of Wisconsin Cinematheque</a><br />
+Wisconsin Film Festival<br />
+April 12th, 9:45pm, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://www.sfcinematheque.org/#/calendar/201304052/">San Francisco Cinematheque</a><br />
+Crossroads Film Festival<br />
+April 5th, 9:15pm, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://www.pragda.com/curated-programs/spain-for-export-1">King Juan Carlos I of Spain Center</a><br />
+New York City<br />
+April 5th, 7pm, 2013<br />
+<br />
+<i>Footnotes to a House of Love</i>,<br />
+<i>My Tears Are Dry</i>,<br />
+<i>Cry When It Happens</i>,<br />
+<i>A Lax Riddle Unit</i> and<br />
+<i>The Room Called Heaven</i><br />
+with works by Hollis Frampton,<br />
+Bruce Baillie and Morgan Fisher<br />
+<a href="http://aafilmfest.org/51/events/juror_presentation_laida_lertxundi/">51st Ann Arbor Film Festival</a><br />
+March 21st, 12pm, 2013<br />
+Filmmaker in person<br />
+<br />
+Films by Laida Lertxundi<br />
+and Michael Robinson at<br />
+<a href="http://www.wexarts.org/fv/index.php?eventid=6881">Wexner Center for the Arts</a><br />
+March 18th, 7pm, Columbus, Ohio.<br />
+Filmmaker in person<br />
+<br />
+<i>Llora Cuando Te Pase //<br />
+Cry When It Happens</i><br />
+<i>International Women&rsquo;s Day:<br />
+Fantastic Films by Women</i><br />
+with works by Rosa Barba, Maya Deren,<br />
+Germaine Dulac and Beatrice Gibson.<br />
+<a href="http://ihousephilly.org/events/international-womens-day-fantastic-films-by-women/">International House Philadelphia,</a><br />
+March 8th, 7pm, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+in <i>Is this Desire?</i> curated by<br />
+Karen Yasinsky with works by<br />
+Raul Ru&iacute;z, Jack Goldstein and more<br />
+<a href="http://hub.jhu.edu/events">Johns Hopkins Film and Media Studies</a><br />
+The Charles Theatre, Baltimore<br />
+February 14th, 9pm, 2013<br />
+<br />
+<i>The Room Called Heaven</i><br />
+in <i>The World Ends in a Dream</i><br />
+curated by Ben Russell<br />
+with films by Jordan Belson,<br />
+Tony Conrad, Ben Rivers,<br />
+Jonathan Schwartz and more<br />
+<a href="http://www.lecranstdenis.org/wp-content/uploads/2013/01/LAND-OF-HOPE-RUSSEL-END-OF-TIME.pdf">Les Journees Cinematographiques<br />
+Dyonisiennes</a>, Paris, France<br />
+February 12th, 19:00, 2013<br />
+Filmmaker in person<br />
+<br />
+The Room Called Heaven<br />
+in <i>Public Diary</i>, curated by Jay Sanders<br />
+with works by Thom Anderson,<br />
+Marcel Broodthaers, Bruce Nauman,<br />
+Jack Smith and others<br />
+<a href="http://www.yebizo.com/#pg_screen8">Tokyo Metropolitan Museum of Photography</a><br />
+February 10th, 18:30, 2013<br />
+February 14th, 15:00, 2013<br />
+<br />
+<i>Landscape Plus</i>, films by Laida Lertxundi,<br />
+Hollis Frampton, Bruce Baillie<br />
+and Morgan Fisher<br />
+<a href="http://www.cccb.org/en/audiovisual-landscape_plus_the_cinema_of_laida_lertxundi-42266">Centre de Cultura Contemporania de Barcelona</a><br>
+February 10th, 18:30, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>Landscape Plus</i>, films by Laida Lertxundi,<br />
+Hollis Frampton, Bruce Baillie<br />
+and Morgan Fisher<br />
+<a href="http://www.cgai.org/index.php?seccion=programacion_ficha.php&amp;id_programa=2641&amp;cambio_a_fecha2=0">Centro Galego de Artes da Imaxe</a><br />
+A Coru&ntilde;a, Spain<br />
+February 6th, 20:30pm, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>The Room Called Heaven</i><br />
+<a href="http://www.filmfestivalrotterdam.com/en/films/the-room-called-heaven/">International Film Festival Rotterdam</a><br />
+January 27th, 14:45, 2013 and<br />
+January 28th, 12:15, 2013<br />
+Filmmaker in person<br />
+<br />
+<em>Farce Sensationelle,</em><br />
+<em>Footnotes to a House of Love</em>,<br />
+<em>My Tears Are Dry</em>,<br />
+<em>Cry When It Happens</em> and<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://calarts.edu/event/2013-01-22/filmvideo-structuring-strategies-presents-laida-lertxundi-farce-sensationelle-footn">California
+ Institute of the Arts</a><br />
+January 22nd, 7pm, 2013<br />
+Filmmaker in person<br />
+<br />
+<i>A Lax Riddle Unit</i><br />
+in <a href="http://www.reiheexperimentalfilm.de/programm.html">D21 Kunstraum Leipzig<br />
+Minifestival</a> with works by<br />
+Chantal Akerman,<br />
+and Sylvia Schedelbauer<br />
+December 5th, 18:30pm, Leipzig<br />
+<br />
+<i>LLora Cuando Te Pase //<br />
+Cry When It Happens</i><br />
+in <i>GAZE #3: Material Worlds</i><br />
+<a href="http://www.atasite.org/2012/11/gaze-3-material-worlds/">ATA, San Francisco</a><br />
+November 30th, 8pm, 2012<br />
+<br />
+Films by Laida Lertxundi,<br />
+Hollis Frampton, Bruce Baillie<br />
+and Morgan Fisher at<br />
+<a href="http://www.ica.org.uk/34595/Film/Artists-Film-Club-Laida-Lertxundi.html">ICA, London</a><br />
+October 23rd, 7pm, 2012<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://markwebber.org.uk/experimenta/2012/09/05/fly-into-the-mystery/">BFI London Film Festival</a><br />
+curated by Mark Webber,<br />
+October 21st, 9pm, 2012<br />
+<br />
+<em>Footnotes to a House of Love</em>,<br />
+<em>My Tears Are Dry</em>,<br />
+<em>Cry When It Happens</em>,<br />
+<em>A Lax Riddle Unit</em> and<br />
+<em>Farce Sensationelle</em>,<br />
+with works by Hollis Frampton,<br />
+Bruce Baillie and Morgan Fisher<br />
+<a href="http://www.siskelfilmcenter.org/laida-lertxundi-lax-riddle-unit">Gene Siskel Film Center, Chicago</a><br />
+October 18th, 6pm, 2012<br />
+Filmmaker in person<br />
+<br />
+<em>Cry When It Happens</em><br />
+with works by Jodie Mack<br />
+Pablo Mar&iacute;n and more<br />
+curated by <a href="http://experimentalcinema.givezooks.com/events/tie-beverly">TIE</a><br />
+October 11th, 8pm, 2012<br />
+<br />
+<em>The Room Called Heaven</em><br />
+premiere, New York Film Festival<br />
+<a href="http://www.filmlinc.com/nyff2012/films/the-room-called-heaven">Views of the Avant-Garde</a><br />
+with works by Apichatpong<br />
+Werasethakul and Ben Rivers<br />
+Howard Gilman Theater, Lincoln Center,<br />
+October 6th, 12pm, 2012<br />
+<br />
+<em>Footnotes to a House of Love</em>,<br />
+in <em>Friends with Benefits</em><br />
+curated by Ben Rivers<br />
+<a href="http://www.tramway.org/events/Pages/Day-2-Tramway-Festival-of-Artists%27-Moving-Image.aspx">Tramway Festival of Artist&rsquo;s Moving Image</a><br>
+Glasgow, Scotland<br />
+September 15th, 9pm, 2012<br />
+<br />
+<em>Farce Sensationalle</em><br />
+<em>Footnotes to a House of Love,</em><br />
+<em>My Tears Are Dry,</em><br />
+<em>Cry When It Happens</em> and<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://musac.es/index.php">Musac: Museo de Arte<br />
+Contempor&aacute;neo de Castilla y Le&oacute;n</a><br />
+September 7th, 21:00, 2012<br />
+Filmmaker in Person<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://losangelesartresource.wordpress.com/">Los Angeles Art Resource</a><br />
+Fundraiser and Film Screening<br />
+Mandrake<br />
+August 19th, 6-10pm, 2012<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://dinca.org/announcing-dinca-vision-quest-2012/10760.htm">Dinca Vision Quest</a><br />
+Thalia Hall, Chicago<br />
+August 18th, 8pm, 2012<br />
+<br />
+<em>Footnotes to a House of Love</em><br />
+<a href="http://nomadinenakatemia.blogspot.com/2012/08/datadada-grand-finissage-15-1682012.html">Nomadic Academy of Experimental Arts</a><br />
+Harakka Island, Helsinki, Finland<br />
+August 16th, 19:00, 2012<br />
+<br />
+<em>Footnotes to a House of Love</em><br />
+<a href="http://www.erarta.com/timetable/611/">Erarta Museum of Contemporary Art</a><br />
+Saint Petersburgh, Russia<br />
+July 28th, 18:00 , 2012<br />
+<br />
+<em>Footnotes to a House of Love</em><br />
+Private Territory, curated by<br />
+Mariya Nikiforova<br />
+<a href="http://www.privateterritoryfilmtour.com/reykjavik">B&iacute;&oacute; Parad&iacute;s, Reykjav&iacute;k, Iceland</a><br />
+July 19th, 20:00, 2012<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://www.chicagofilmmakers.org/onion_fest/onion3_schedule.html">Onion City Film Festival, Chicago</a><br />
+June 23rd, 8pm, 2012<br />
+<br />
+<em>Llora Cuando Te Pase</em><br />
+<a href="http://www.limaindependiente.com/programa-por-sedes-lima-arequipa-chiclayo-y-huaraz/">Lima independiente II<br />
+Festival de Cine, Lima, Per&uacute;</a><br />
+June 18th, 5:30pm, 2012<br />
+<br />
+<em>My Tears Are Dry</em><br />
+in the installation <em>Peripheral Vision</em><br />
+curated by Ben Russell for<br />
+Berlin Documentary Forum 2<br />
+<a href="http://www.hkw.de/en/programm/2012/berlin_documentary_forum_2/berlin_documentary_2012_65716.php">Haus Der Kulturen Der Welt</a><br />
+31 May - 3 June, 2012<br />
+<br />
+<em>Footnotes to a House of Love</em><br />
+in <em>Friends with Benefits</em><br />
+with works by Johan van der Keuken<br />
+and George Kuchar, curated by Ben Rivers<br />
+<a href="http://www.ica.org.uk/33376/Film/Friends-with-Benefits-curated-by-Ben-Rivers.html">Lux / ICA<br />
+Biennial of Moving Images, London</a><br />
+May 26th, 2:30 pm,<br />
+May 27th, 6pm, 2012<br />
+<br />
+<em>Farce Sensationalle,</em><br />
+<em>Footnotes to a House of Love,</em><br />
+<em>My Tears Are Dry,</em><br />
+<em>Cry When It Happens</em> and<br />
+<em>A Lax Riddle Unit,</em><br />
+with works by Hollis Frampton,<br />
+Bruce Baillie and Morgan Fisher<br />
+<a href="http://www.sfcinematheque.org/#/calendar/201205201/">San Francsico Cinematheque</a><br />
+May 20th, 5:30pm, 2012<br />
+Filmmaker in person<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+Migrating Forms<br />
+<a href="http://migratingforms.org/schedule-2/">Anthology Film Archives, New York</a><br />
+May 19th, 7:30pm, 2012<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://www.kurzfilmtage.de/index.php?id=5060">Internationale Kurzfilmtage Oberhausen</a><br />
+April 29th, 20:00, 2012<br />
+Filmmaker in person<br />
+<br />
+<em>Footnotes to a House of Love,</em><br />
+<em>My Tears Are Dry,</em><br />
+<em>Llora Cuando Te Pase/<br />
+Cry When It Happens</em> and<br />
+<em>A Lax Riddle Unit</em><br />
+With works by Lewis Klahr<br />
+<a href="http://www.echoparkfilmcenter.org/cinema/schedule.html">Echo Park Film Center</a><br />
+April 21st, 8 pm, 2012<br />
+<br />
+<em>Cry When it Happens</em><br />
+<a href="http://imagesfestival.com/calendar.php?event_id=756&amp;month=y">Images Film Festival, Toronto</a><br />
+Apr 16th, 9:15pm, 2012<br />
+<br />
+<em>Footnotes to a House of Love,</em><br />
+<em>My Tears Are Dry,</em><br />
+<em>Cry When It Happens</em> and<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://whitney.org/Events/LaidaLertxundiScreening">Whitney Biennial</a><br />
+March 28th, 29th, and 31st, Hourly 12-5 pm<br />
+March 30th, Hourly 1-8 pm<br />
+April 1st, Hourly 12-3 pm<br />
+Filmmaker conversation with curator Thomas Beard:<br />
+April 1st, 4 pm, 2012<br />
+Whitney Museum of American Art, New York<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+<a href="http://aafilmfest.org/50/films/a_lax_riddle_unit/">50th Ann Arbor Film Festival</a><br />
+March 30th, 7:15pm, 2012<br />
+<br />
+Artist Lecture<br />
+<a href="http://calendar.bennington.edu/cal/event/eventView.do?b=de&amp;subid=16&amp;calPath=%2Fpublic%2FLectures_Seminars%2FLectures&amp;guid=CAL-8c90f40b-362b2e63-0136-308590cf-00000009demobedework@mysite.edu&amp;recurrenceId=">Bennington College, Vermont</a><br />
+March 27th, 7:30pm, 2012<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://ip-70-38-122-157.static.privatedns.com/en/programmation/projections/investigation-metacinema">Cin&eacute;math&egrave;que Quebecoise</a><br />
+Quebec, Canada<br />
+March 7th, 6:30pm, 2012<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+in <em>That is the Dawn</em><br />
+with works by Ken Jacobs and<br />
+Ketevan Alexi-Meskhishvili<br />
+<a href="http://www.gregorstaiger.com/">Galerie Gregor Staiger</a><br />
+Z&uuml;rich<br />
+February 25th - March 31st, 2012<br />
+<br />
+<em>Footnotes to a House of Love,</em><br />
+<em>My Tears Are Dry,</em><br />
+<em>Cry When It Happens</em> and<br />
+<em>A Lax Riddle Unit,</em><br />
+with works by Hollis Frampton,<br />
+Bruce Baillie and Morgan Fisher<br />
+<a href="http://www.offoff.be/programma/detail/nl/230/2012/02/13">Offoff Art Cinema, Ghent, Belgium</a><br />
+February 13th, 20:30pm, 2012<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://ivac.gva.es/eventos-agenda?fecha=20120131">Instituto Valenciano de la Cinematograf&iacute;a</a><br />
+(IVAC, Filmoteca de Valencia), Espa&ntilde;a<br />
+January 31st, 18:00, 2012<br />
+<br />
+<em>Footnotes to a House of Love</em><br />
+<a href="http://www.offlimits.es/maelstrom/2012/01/muestra_itinerante_de_cine_pla_15.html">Off Limits</a><br />
+Madrid<br />
+January 24th, 20:30, 2012<br />
+<br />
+<em>A Lax Riddle Unit,</em> (Los Angeles Premiere)<br />
+<em>Cry When It Happens,</em><br />
+<em>My Tears Are Dry</em> and<br />
+<em>Footnotes to a House of Love</em><br />
+<a href="http://humanresourcesla.com/">Human Resources LA</a><br />
+January 20th, 8:00 PM, 2012<br />
+Filmmaker in person<br />
+<br />
+<em>A Lax Riddle Unit,</em><br />
+<em>Cry When It Happens,</em><br />
+<em>My Tears Are Dry</em> and<br />
+<em>Footnotes to a House of Love</em><br />
+<a href="http://bigbendnow.com/2011/12/laida-lertxundi%E2%80%99s-16mm-films-to-be-screened-saturday/">Marfa Book Company</a><br />
+December 17th, 7:30 PM, 2011<br />
+Filmmaker in person<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://www.lafilmforum.org/index/Current_Schedule/Entries/2011/12/11_The_49th_Annual_Ann_Arbor_Film_Festival_Tour_%E2%80%93_Program_B.html">Los Angeles Film Forum</a><br />
+49th Ann Arbor Film Festival Touring Program<br />
+December 11th, 7:30 PM, 2011<br />
+<br />
+<em>My Tears Are Dry</em><br />
+in <em>A Spell to Ward off the Darkness</em><br />
+<a href="http://www.cphdox.dk/d/film.lasso?ser=1631&amp;s=2011122&amp;e=1">curated by Ben Rivers and Ben Russell</a><br />
+Copenhagen International Documentary Film Festival<br />
+November 8th, 21:00, 2011<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://www.cgai.org/index.php?seccion=programacion.php">Centro Galego de Artes e Imaxe</a><br />
+Coru&ntilde;a, Espa&ntilde;a<br />
+October 20th, 20:45, 2011<br />
+<br />
+<em>A Lax Riddle Unit,</em><br />
+<em>Cry When It Happens,</em><br />
+<em>My Tears Are Dry</em> and<br />
+<em>Footnotes to a House of Love</em><br />
+<a href="http://massartfilmsociety.blogspot.com/2011/10/101911-laida-lertxundi.html">Mass Art Film Society</a><br />
+curated by Saul Levine<br />
+October 19th, 8 PM, 2011<br />
+<br />
+<em>A Lax Riddle Unit</em><br />
+premieres at New York Film Festival<br />
+<a href="http://www.filmlinc.com/pages/a-lax-riddle-unit">Views of the Avant-Garde</a><br />
+October 8th, 1:45 PM, 2011 and<br />
+October 10th, 3:45 PM, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://25fps.hr/2011/wp/index_.html#/competition-2">25fps Zagreb, Croatia</a><br />
+Competition Program 2, Reflection Road<br />
+September 21st, 20:00, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://cinema.cornell.edu/EarlyFall2011/fits_and_spells.html">Cornell Cinema</a><br />
+Curated by Michael Robinson<br />
+September 13th, 7:15 PM, 2011<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+From Ecstasy to Rapture<br />
+<a href="http://www.complejoteatral.gob.ar/cine/espanol0.html">Fundacion Cinemateca Argentina, Buenos Aires</a><br />
+August 27th, 14:30, 17, 19:30 and 22, 2011<br />
+<br />
+<em>Cry When It Happens, My Tears Are Dry</em><br />
+and <em>Footnotes to a House of Love</em><br />
+<a href="http://www.d21-leipzig.de/2011/07/reihe-experimentalfilm/">D21 Kunstraum Leipzig</a><br />
+Screening organized by Sarah Schipschack<br />
+August 12th, 21:00, 2011<br />
+Filmmaker in person<br />
+<br />
+<em>My Tears Are Dry</em><br />
+in <em>Here, There and Between</em><br />
+<a href="http://plusscreening.org/?p=129">curated by Tomonari Nishikawa</a><br />
+Uplink Factory, Shibuya, Tokyo, Japan<br />
+July 2nd, 7:30 PM, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://www.chicagofilmmakers.org/onion_fest/onion3_schedule.html">Onion City Experimental Film and Video Festival</a><br />
+at Chicago Filmmakers, 5243 N. Clark Street<br />
+June 26th, 6:30 PM, 2011<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://www.centrohuarte.es/index.php/es/actividades/xcntric-itinerante-del-xtasis-al-arrebato-50-anos-del-otro-cine-espanol">Centro Huarte y Filmoteca de Navarra</a><br />
+Espa&ntilde;a<br />
+June 24th, 20:00, 2011<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="%20http://biblioteca-shanghai.cervantes.es/FichasCultura/Ficha73944_41_1.htm">Instituto Cervantes</a><br />
+Shangai, China<br />
+June 24th, 17:00, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://www.edfilmfest.org.uk/films/2011/revealing-%09%09unravelling">Edinburgh International Film Festival</a><br />
+Filmhouse 1, 88 Lothian Road, Edinburgh EH3 9BZ, UK<br />
+June 17th, 3:45 PM, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://theemptyglobe.tumblr.com/">The Empty Globe curated by Amina Cain</a><br />
+with readings by Teresa Carmody and James Wagner<br />
+Pieter, Los Angeles<br />
+June 4th, 8 PM, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://migratingforms.org/2011-program/">Migrating Forms</a><br />
+Anthology Film Archives, New York<br />
+May 29th, 3:15 PM, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+San Francisco Cinematheque<br />
+<a href="http://www.sfcinematheque.org/#/news/201104240/">Crossroads Festival Program 8: Playback</a><br />
+curated by Lauren Sorensen<br />
+May 15th 2:30 PM, 2011<br />
+<br />
+<em>My Tears Are Dry</em> and <em>Footnotes to a House of Love</em><br />
+in Venus, aka Lovers Rock<br />
+<a href="http://onthemake.org/2011/04/24/venus/">Thalia Hall, Chicago</a><br />
+April 24th, 7:30 PM, 2011<br />
+<br />
+<em>My Tears Are Dry</em><br />
+in Tapeless Melodies<br />
+<a href="http://www.microscopegallery.com/?page_id=351">Microscope Gallery, Brooklyn</a><br />
+April 23rd, 7:00 PM, 2011<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+From Ecstasy to Rapture<br />
+<a href="http://www.tate.org.uk/modern/eventseducation/film/23614.htm">Tate Modern, London</a><br />
+April 17th, 12 PM, 2011<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="del_extasis_al_arrebato.pdf">in program 5: Explorations / M&eacute;tacin&eacute;ma</a><br />
+From Ecstasy to Rapture<br />
+Musee Jeu du Paume, Paris<br />
+April 2nd, 17:00, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+in West of Rome<br />
+<a href="http://www.courtisane.be/en/festival/2011/programme/west-rome">Courtisane Film Festival, Belgium</a><br />
+March 31st, 13:30 and<br />
+April 2nd, 21:30, 2011<br />
+<br />
+<em>Long Live Our Love</em><br />
+Current Films by Michael Robinson,<br />
+Ben Russell and Laida Lertxundi<br />
+<a href="http://www.lafilmforum.org/index/Current_Schedule/Current_Schedule.html">Los Angeles Film Forum</a><br />
+March 27th, 7:30 PM, 2011<br />
+Filmmakers in person<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://aafilmfest.org/49/index.php/films/llora_cuando_te_pase_cry_when_it_happens/">49th Ann Arbor Film Festival</a><br>
+March 23rd, 9 PM, 2011<br />
+Filmmaker in person<br />
+<br />
+<em>Cry When It Happens</em> and <em>My Tears Are Dry</em><br />
+<a href="http://ftv.chapman.edu/about/event_calendar/get_out_of_the_car_-_short_films_screening/">Dodge College of Film and Media Arts</a><br />
+Screening curated by Thom Andersen<br />
+March 3rd, 7 PM, 2011<br />
+Filmmakers in person<br />
+<br />
+<em>Footnotes to a House of Love</em><br />
+<a href="http://www.puntodevistafestival.com/es/ficha_pelicula.asp?IdPeli=198">Punto de Vista</a>, Pamplona, Spain<br />
+February 25th, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://cinemaproject.org/screenings/spring/2011/short-cuts-v-everywhere-was-the-same/">Portland International Film Festival</a><br />
+February 22nd, 2011<br />
+Filmmaker in person<br />
+<br />
+<em>Long Live Our Love</em><br />
+Current Films by Michael Robinson,<br />
+Ben Russell and Laida Lertxundi<br />
+<a href="http://nwfilmforum.org/live/page/calendar/1657%EC%A7%9C">North West Film Forum</a>, Seattle<br />
+February 20th, 8 PM, 2011<br />
+Filmmaker in person<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://www.wexarts.org/fv/index.php?eventid=5337">Wexner Center for the Arts</a><br />
+February 16th, 7:00 PM, 2011<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://www.cinematheque.bc.ca/from-ecstasy-to-rapture-50-years-of-the-other-spanish-cinema">Pacific Cinematheque</a><br>
+Vancouver, Canada<br />
+February 9th, 7pm, 2011<br />
+<br />
+<em>Cry When It Happens</em><br />
+<a href="http://www.filmfestivalrotterdam.com/professionals/films/llora-cuando-te-pase/">International Film Festival Rotterdam</a><br />
+January 27th and 31st, 2011<br />
+Filmmaker in person<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://tiff.net/filmsandschedules/tiffbelllightbox/2010/201010200044959">Toronto IFF Cinematheque</a><br />
+January 26th, 7:00 PM, 2011<br />
+<br />
+<em>My Tears are Dry</em><br />
+<a href="http://www.mfah.org/film/ann-arbor-film-festival-tour/">Museum of Fine Arts Houston</a><br />
+January 15th, 7:00 PM, 2011<br />
+<br />
+<em>My Tears Are Dry</em><br />
+<a href="http://www.microwavefest.net/festival2010/">New Media Arts Festival</a><br />
+Hong Kong Space Museum<br />
+December 12th, 9:00 PM, 2010<br />
+<br />
+<em>Footnotes to a House of Love</em><br />
+<a href="http://cinemaproject.org/screenings/Fall/2010/everybody-gets-hurt/">Cinema Project</a><br />
+Portland, Oregon<br />
+December 7th and 8th, 7:30 PM, 2010<br />
+<br />
+<em>My Tears Are Dry</em><br />
+<a href="http://www.lafilmforum.org/index/Current_Schedule/Entries/2010/9/7_Ann_Arbor_Film_Festival_Tour_%2816mm_Program%29.html">Los Angeles Film Forum</a><br />
+November 21st, 7:30 PM, 2010<br />
+<br />
+<em>My Tears Are Dry</em><br />
+Screening at <a href="http://www.expcinema.com/site/en/news/events/recent-spanish-experimental-cinema-inner-geography">Recent Spanish Experimental Cinema: Inner Geography</a> Curated by Garbi&ntilde;e Ortega<br />
+Pacific Film Archive Theater<br />
+2575 Bancroft Way, Berkeley, California, USA<br />
+filmmaker in person<br />
+November 10th, 7:30 PM, 2010<br />
+<br />
+<em>Cry When It Happens / Llora Cuando Te Pase</em><br />
+at <a href="http://www.filmlinc.com/nyff/2010/views-from-the-avant-garde-saturday-october-2/views-from-the-avant-garde-since-you-were-here">New York Film Festival Views of the Avant-Garde</a><br />
+at Film Society of Lincoln Center<br />
+October 3rd, 8:15 PM, 2010<br />
+<br />
+<em>Footnotes to a House of Love</em><br />
+Screening at <a href="http://www.filmlinc.com/wrt/onsale/views.html">Film Society of Lincoln Center, New York</a><br />
+as part of 21st Century Limited<br />
+July 25th, 6:30 and 9:15 PM, 2010<br />
+<br />
+<em>Footnotes to a House of Love</em> and <em>My Tears Are Dry</em><br />
+playing with Thom Andersen&#39;s premiere of<br />
+<em>Get Out of the Car</em> as part of <a href="http://www.cinefamily.org/calendar/thursday.html#thomandersen">Don&#39;t Knock the Rock</a>,<br />
+at <a href="http://www.cinefamily.org/calendar/thursday.html#thomandersen">Cinefamily, Los Angeles</a><br />
+August 19th, 8:00 PM, 2010<br />
+<br />
+<em>My Tears Are Dry</em><br />
+<a href="http://www.mocadetroit.org/upcomingevents.html">Museum of Contemporary Art Detroit</a><br />
+June 5th, 8:00 PM, 2010<br />
+<br />
+<em>When it was Blue</em><br />
+by Jennifer Reeves<br />
+Curated by Laida Lertxundi for:<br />
+<a href="http://www.cccb.org/en/audiovisual-closing_session_of_the_ninth_season-34690">Centre de Cultura Contemporanea de Barcelona</a><br />
+June 27th, 2010<br />
+<br />
+<a href="http://mommymommyreadingseries.blogspot.com/">Artist presentation at MommyMommy</a><br />
+June 5th, Los Angeles, CA<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://www.museoreinasofia.es/programas-publicos/audiovisuales/extasis-arrebato.html">Museo Nacional Centro de Arte Reina Sofia Madrid</a><br />
+and <a href="http://www.cccb.org/en/audiovisuals">Centre de Cultura Contemporanea de Barcelona</a><br />
+May 23rd, 6:30 PM, CCCB<br />
+<br />
+<em>Del Extasis al Arrebato: 50 Anos del Otro Cine Espanol</em><br />
+<a href="http://ccemiami.org/demo/ccemiami/actividad.php?idAct=158&amp;lan=esp">organized by Bass Museum of Art, Miami, FL</a><br />
+April 22nd-25th, 27th, and 28th, 2010<br />
+<br />
+<em>My Tears Are Dry</em><br />
+<a href="http://www.transmodernfestival.org/2010/?cat=12">Annual Transmodern Festival</a><br />
+Baltimore Museum of Art, Baltimore, MA<br />
+April 15th-18th, 2010<br />
+<br />
+<em>Del Extasis al Arrebato: 50 Anos del Otro Cine Espanol</em><br />
+<a href="http://www.nga.gov/programs/film/spanishexperimental.shtm">National Gallery of Art, Washington, D.C.</a><br />
+April 3rd-4th, 10th-11th, 17th-18th, 2010<br />
+<br />
+<em>My Tears Are Dry</em><br />
+<a href="http://www.imagesfestival.com">Images Film Festival, Toronto</a><br />
+April 1st-10th, 2010<br />
+<br />
+<em>My Tears Are Dry</em><br />
+<a href="http://aaff.bside.com/2010/films/openingnightscreening_aafilmfest2010_aafilmfest2010;jsessionid=2B30C412F71376F9EC25E6BB0B9E22D5">Ann Arbor Film Festival</a><br />
+Ann Arbor, MI<br />
+March 23rd, 8:15 PM, 2010<br />
+<br />
+<em>The Anchorage</em><br />
+by C. W. Winter and Anders Edstrom<br />
+Curated by Laida Lertxundi for:<br />
+<a href="http://www.cccb.org/en/audiovisual-the_anchorage_c_w_winter_y_anders_edstrom-34475">Centre de Cultura Contemporanea de Barcelona</a><br />
+March 21st, 2010<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://anthologyfilmarchives.org/">Anthology Film Archives</a><br />
+New York City<br />
+February 21st, 6pm, 2010<br />
+<br />
+<em>Farce Sensationelle!</em><br />
+<a href="http://www.acmi.net.au/">Australian Centre For The Moving Image</a><br />
+Melbourne, Australia<br />
+October 8th, 7pm, 2009</div>
+
+<div id="exhibits"><span class="sectitle">EXHIBITIONS</span><br />
+<br />
+<i>Light Industry Benefit</i><br>
+<a href="http://www.lightindustry.org/benefit/">Bridget Donahue Gallery</a><br>
+New York<br>
+March 24th, 2018<br><br>
+<i><a href="OtrasLuces2018.pdf">Otras Luces</i></a><br>
+Pamplona, Spain<br>
+December 21st- January 1st, 2018<br><br>
+<i>Your Mouth a Constellation</i><br>
+<a href="http://joanlosangeles.org/mary-helena-clark/">Joan, Los Angeles</a><br>
+curated by Mary Helena Clark<br>
+December 8th, 7:30pm<br><br>
+<i>My Tears Are Dry</I> + <br>
+<i>Linear Song for L</i><br>
+<a href="http://museo.unav.edu/programacion/cine/detalle-cine?eventId=15441332">Museo Universidad de Navarra</a><br>
+November 17th, 19:00, 2017<br><br>
+<i>Fabric of the Particular</i><br>
+<a href="http://www.elephantartspace.com/">Elephant Art Space</a><br>
+Los Angeles<br>
+September 8th-30th, 2017<br><br>
+<i>Laida Lertxundi: Landscape Plus </i><br>
+<a href="fluent.html">fluent, Santander</a><br>
+July 14th - 31st, 2017<br><br>
+<i>Playlist</i><br> 
+curated by Fabien Danesi<br>
+<a href="playlist_01.jpg">Centre de art contemporain </a><br>
+Ange Leccia, France<br>
+July 13th - July 31st<br><br>
+<i>Ways of Telling</i><br>
+Beatrice Gibson, Laida Lertxundi, <br>
+Lis Rhodes, Ben Rivers, John Smith, <br>
+Alia Syed and Corin Sworn curated<br>
+by María Palacios Cruz<br>
+<a href="antwerp.html">Antwerp Art Weekend</a><br>
+19-21 May 2017<br><br>
+<i>025 Sunset Red</i><br>
+at Horma/La Pared<br>
+<a href="tabakalera.html">Tabakalera, San Sebastian</a><br>
+April 1st - 30th, 2017<br><br>
+Beatrice Gibson solo show<br>
+with <i>Footnotes to a House of Love</i><br>
+<a href="http://www.grazerkunstverein.org/en/archive/exhibitions-20132016.html">Grazer Kunstverein</a><br>
+24 September – 18 December 2016<br><br>
+Made in L.A. 2016<br />
+<a href="MILA.html">Hammer Museum</a><br />
+Los Angeles<br />
+Summer 2016<br />
+<br />
+<a href="http://temporarygallery.org/pages/archiv/2016/laida-lertxundi.html">Temporary Gallery</a><br />
+Screening Room: Laida Lertxundi<br />
+K&ouml;ln, Germany<br />
+July 21st, 2016<br />
+<br />
+<i>We do not speak but<br />
+confine ourselves briefly<br />
+to the surface*<br />
+(a dramaturgy of interiority)</i><br />
+Curated by Laetitia Calin<br />
+<a href="https://www.ica.org.uk/whats-on/we-do-not-speak-confine-ourselves-briefly-surface-dramaturgy-interiority">ICA</a>, London<br />
+June 22nd, 6pm, 2016<br />
+<br />
+Boom Bang III<br />
+<a href="http://www.nncontemporaryart.org/exhibitions/boom-bang-iii/">NN Contemporary Art</a>, UK<br />
+May 25th, June 11th, 2016<br />
+<br />
+<a href="http://loop-barcelona.com/artist-video/laida-lertxundi/">LOOP Barcelona</a><br />
+June 2-5th, 2016<br />
+<br />
+<i>Footnotes to a House of Love</i><br />
+curated by Erik Bullot<br />
+with films by Ra&uacute;l Ru&iacute;z<br />
+<a href="http://www.macval.fr/francais/evenements-4/bis-repetita-placent/article/programme-5946">MAC VAL</a>, France<br />
+April 1-3rd, 2016<br />
+<br />
+<a href="arcomadrid.html">ARCO Madrid</a><br />
+February 24th-28th, 2016<br />
+<br />
+<a href="https://artlosangelesfair.com/exhibitor/473/Galeria-Marta-Cervera">Art Los Angeles Contemporary</a><br />
+with Marta Cervera Gallery<br />
+at The Barker Hangar<br />
+January 28th-31st, 2016<br />
+<br />
+<i>Entre la Idea y la Experiencia</i><br />
+<a href="http://www.bienalhabana.cult.cu/?q=es/node/119">Bienal de La Habana, Cuba</a><br />
+22 de Mayo al 22 de Junio, 2015<br />
+<br />
+<i><a href="wild_screen.html">Wild Screen / Sc&aacute;il-fhi&aacute;in</a></i><br />
+Connemara Ireland<br />
+March 7th-8th, 2015<br />
+<br />
+<i>Visiones Contempor&aacute;neas:<br />
+Laida Lertxundi</i><br />
+<a href="http://domusartium2002.com/FILE/EXPOSICION/DA2_LaidaLertxundi.pdf">DA2</a>, Salamanca<br />
+October 3rd, 2014-January 11th, 2015<br />
+<br />
+<a href="http://www.vdrome.org/laida-lertxundi-cry-when-it-happens/">Vdrome #53: Cry When it Happens</a><br />
+September 11th-24th, 2014<br />
+<br />
+<i>A Paradise Built in Hell</i><br />
+<a href="Kunstverein.html">Kunstverein in Hamburg</a><br />
+June 28th - September 7th, 2014<br />
+<br />
+<a href="https://frieze.com/fair-programme/als-grand-hotel-1971-public-fiction-2014">Freeze Projects New York</a><br />
+Al&rsquo;s Grand Hotel<br />
+curated by Lauren Mackler<br />
+May 2nd to 8th, 2014<br />
+<br />
+<a href="http://cultura.elpais.com/cultura/2014/02/12/actualidad/1392215724_225619.html">ARCO Madrid </a><br />
+with Marta Cervera Gallery<br />
+February 19th &ndash; 23rd, 2014<br />
+<br />
+<i>Llora Cuando Te Pase</i><br />
+Laida Lertxundi<br />
+<a href="alhondiga_bilbao.html">Alh&oacute;ndiga Bilbao</a><br />
+17 de Febrero a 18 de Mayo, 2014<br />
+<br />
+<a href="biennale_de_lyon.html">Biennale de Lyon</a><br />
+Lyon, France<br />
+September 12th, 2013 - January 5th, 2014<br />
+<br />
+<i>Landscape Plus</i>, Laida Lertxundi<br />
+<a href="marta_cervera_gallery.html">Marta Cervera Gallery</a><br />
+Madrid<br />
+September 14th - October 19th, 2013<br />
+<br />
+<a href="liaf_biennial.html">LIAF Biennial</a><br />
+Kabelv&aring;g, Norway<br />
+September 6th - 29th, 2013<br />
+<br />
+<a href="whitney_biennial.html">Whitney Biennial</a><br />
+New York<br />
+March 1st - May 27th, 2012<br />
+<br />
+<i>That is the Dawn</i><br />
+<a href="galerie_gregor_staiger.html">Galerie Gregor Staiger</a><br />
+Z&uuml;rich<br />
+February 25th - March 31st, 2012<br />
+<br />
+<i>Unnatural Acts</i><br> 
+<a href="http://welcometolace.org/event/unnatural-acts/">LACE</a><br>
+Los Angeles<br>
+July, 2010<br>
+<br />
+&nbsp;</div>
+
+<div id="films"><span class="sectitle">RECENT FILMS</span><br />
+<br />
+<a href="025_Sunset_Red.html"><img alt="" border="0" src="Sunset3.jpg" width="180" /></a><br />
+<em>025 Sunset Red</em><br />
+2016, 16mm, 14min, color, sound<br />
+<br />
+<a href="vivir_para_vivir.html"><img alt="" border="0" src="vivir3.jpg" width="180" /></a><br />
+<em>Vivir para Vivir / Live to Live</em><br />
+2015, 16mm, 11 min, color, sound<br />
+<br />
+<a href="we_had_the_experience_but_missed_the_meaning.html"><img alt="" border="0" src="experience_1.jpg" width="180" /></a><br />
+<em>We Had the Experience<br />
+but Missed the Meaning</em><br />
+2014, 8 min, 16mm<br />
+<br />
+<a href="utskor_either_or.html"><img alt="" border="0" src="utskor_1.jpg" width="180" /></a><br />
+<em>Utskor: Either/Or</em><br />
+2013, 7.5 min, 16mm, HD<br />
+<br />
+<a href="the_room_called_heaven.html"><img alt="" border="0" src="room_1.jpg" width="180" /></a><br />
+<em>The Room Called Heaven</em><br />
+2012, 11 min, 16mm<br />
+<br />
+<a href="a_lax_riddle_unit.html"><img alt="" border="0" src="a_lax_riddle_unit.jpg" width="180" /></a><br />
+<em>A Lax Riddle Unit</em><br />
+2011, 6 min, 16mm<br />
+<br />
+<a href="cry_when_it_happens.html"><img alt="" border="0" src="cry_when_it_happens.jpg" width="180" /></a><br />
+<em>Cry When it Happens / Llora Cuando Te Pase</em><br />
+2010, 14 min, 16mm<br />
+<br />
+<a href="my_tears_are_dry.html"><img alt="" border="0" src="my_tears.jpg" width="180" /></a><br />
+<em>My Tears Are Dry</em><br />
+2009, 4 min, 16mm<br />
+<br />
+<a href="footnotes_to_a_house_of_love.html"><img alt="" border="0" src="forest.jpg" width="180" /></a><br />
+<em>Footnotes to a House of Love</em><br />
+2007, 13 min, 16mm<br />
+<br />
+<a href="farce_sensationelle.html"><img alt="" border="0" src="farce.jpg" width="180" /></a><br />
+<em>Farce Sensationelle</em><br />
+2009, 2.5 min, 35mm<br />
+<br />
+<br />
+<span class="sectitle">CURATING</span><br />
+<br />
+<img alt="" src="Felker.jpg" width="180" /><br />
+Lori Felker, visiting Artist at<br />
+Art Center College of<br />
+Art and Design<br />
+November 25th, 2015<br />
+<br />
+<img alt="" src="Shambhavi.jpg" width="180" /><br />
+Shambhavi Kaul, visiting Artist at<br />
+Otis College of Art and Design<br />
+November 20th, 2015<br />
+<br />
+<img alt="" src="Patino.jpg" width="180" /><br />
+Lois Pati&ntilde;o, visiting Artist at<br />
+Otis College of Art and Design<br />
+September 25th, 2015<br />
+<br />
+<img alt="" src="meanswithoutend.jpg" width="180" /><br />
+Means Without Ends<br />
+Films by Thom Andersen,<br />
+James Benning, Peter Hutton<br />
+and Yoko Ono<br />
+<a href="http://www.tabakalera.eu/es/cine-experimental-east-west-de-nueva-york-california-hutton-bette-gordon-benning-andersen">Tabakalera, San Sebastian</a><br />
+November 27th-28th, 2015, 7pm<br />
+<br />
+<img alt="" src="Paulino_Contactos.jpg" width="180" /><br />
+Contactos by Paulino Viota<br />
+with films by Laida Lertxundi<br />
+and Alberto Cabrera Bernal<br />
+<a href="contactos.jpg">Echo Park Film Center</a><br />
+<br />
+<img alt="" src="Thom.jpg" width="180" /><br />
+<i>Estructuras</i><br />
+Films by Peggy Ahwesh,<br />
+Thom Andersen, Shambhavi Kaul,<br />
+Laida Lertxundi, Pablo Marin,<br />
+Julie Murray<br />
+<a href="">Tabakalera, San Sebastian</a><br />
+<br />
+<img alt="" src="sound-over-water-mary-helena-clark.png" width="180" /><br />
+<i>Observaciones</i><br />
+Films by Hollis Frampton,<br />
+Mike Stoltz, Alee Peoples,<br />
+Mary-Helena Clarke,<br />
+Rick Bahto and Harun Farocki<br />
+<a href="http://www.tabakalera.eu/programa/landscape-plus/">Tabakalera, San Sebastian</a><br />
+<br />
+<img alt="" src="Gibson_Agatha.jpg" width="180" /><br />
+Films by Peggy Ahwesh, Mary-Helena Clark, Beatrice Gibson and Laida Lertxundi<br />
+<a href="http://www.lightindustry.org/lertxundi">Light Industry</a><br />
+<br />
+<img alt="" src="Farocki.gif" width="180" /><br />
+<em>Back to the Homeland of Gesture</em><br />
+Films by Harun Farocki, Beatrice Gibson, Jean-Claude Rousseau and Laida Lertxundi<br />
+<br />
+<img alt="" src="Lemon.jpg" width="180" /><br />
+<em>Landscape Plus</em><br />
+Films by Laida Lertxundi, Hollis Frampton, Bruce Baillie and Morgan Fisher<br />
+<br />
+<img alt="" src="thorns.jpg" width="180" /><br />
+<em>Long Live Our Love</em><br />
+Recent films by Michael Robinson, Ben Russell and Laida Lertxundi<br />
+at Los Angeles Filmforum and <a href="http://nwfilmforum.org/live/page/calendar/1657%EC%A7%9C">North West Film Forum</a>, Seattle<br />
+<br />
+<img alt="" src="when_it_was_blue.jpg" width="180" /><br />
+<em>When it was Blue</em><br />
+USA, 2008,<br />
+16mm Double Projection, 68 min<br />
+<span class="smaller">by Jennifer Reeves</span><br />
+<br />
+<img alt="" src="ruhr.jpg" width="180" /><br />
+<em>Ruhr</em><br />
+USA, 2010, HD, 121min<br />
+<span class="smaller">by James Benning</span><br />
+<br />
+<img alt="" src="the-anchorage.jpg" width="180" /><br />
+<em>The Anchorage</em><br />
+Sweden/USA, 2009, 35mm, 87min<br />
+<span class="smaller">by C. W. Winter and Anders Edstrom</span><br />
+<br />
+<br />
+<br />
+&nbsp;</div>
+
+<div id="press"><span class="sectitle">PRESS, +</span><br />
+<br />
+<a href="http://lux.org.uk/node/17591">LUX, London</a><br />
+<br />
+lertxundi@gmail.com<br />
+<a href="javascript:ajaxpage('bio.html', 'bio');">bio</a>&nbsp;<a href="Laida_CV_20170914_long.pdf">CV</a>
+
+<div id="bio"></div>
+<br />
+<br />
+<br />
+Aguirre, Peio. "Landscape Plus de Laida Lertxundi." <a href="http://www.editorialconcreta.org/Landscape-Plus-de-Laida-Lertxundi">Editorial Concreta</a>. Agosto, 2017<br><br>
+Espejo, Bea. "Esos Planos de Situaci&acute;n." Babelia, <a href="">El Pa&iacute;s</a>. 31 de Julio. 2017.<br><br>
+Ramstedt, Stefan. &ldquo;Interview with Laida Lertxundi.&rdquo; <a href="http://www.magasinetwalden.se/walden/nummer-5-6.html">Walden</a> N.5/6. June 2017<br><br>
+Lertxundi, Laida. &ldquo;Los Angeles Without Hollywood.&rdquo; <a href="http://www.magasinetwalden.se/walden/nummer-5-6.html">Walden</a> N.5/6. June 2017<br><br>
+Hudek, Antony. &ldquo;Critic&lsquo;s Guide: Antwerp.&rdquo; <a href="https://frieze.com/article/critics-guide-antwerp">Frieze Magazine</a>. May 2017.<br><br>
+Erdin&ccedil;, Kaya. &ldquo;On the full time practice of being care-full.&rdquo; <b>Jugend ohne film</b>. May 2017.<br><br>
+Shellenberger, Herb. &ldquo;Courtisane Festival: Notes on Cinema.&rdquo; <a href="HerbArtMonthlyUKMay2017.JPG">Art Monthly UK</a>. May 2017.<br><br>
+Balsom, Erika. &ldquo;Landscapes of Feeling.&rdquo; <br>
+<a href="SightAndSound.pdf">Sight and Sound</a>. March 2017.<br><br>
+Sweeney, R. Emmet. &ldquo;Interview: Laida Lertxundi.&rdquo;
+ <a href="http://www.filmcomment.com/blog/interview-laida-lertxundi/"> Film Comment</a>.
+ February 2017.<br><br>
+Sweeney, R. Emmet. &ldquo;Laida Lertxundi.&rdquo; <br>
+<a href="http://www.villagevoice.com/event/laida-lertxundi-9616681">Village Voice</a>. February. 2017.<br><br>
+Sorkin, Jenni. &ldquo;Made in LA.&rdquo; <a href="https://www.artforum.com/inprint/issue=201608&id=63458">Artforum</a>.<br> October issue. 2016.<br><br>
+Pinkerton, Nick. &ldquo;Breaking the Waves.&rdquo; <a href="https://www.artforum.com/film/id=63629">Artforum</a>. 2016.<br><br>
+<a href="http://www.lux.org.uk/whats-on/events/landscape-plus-workshop-laida-lertxundi-lux-8-november-2016">LUX Workshop</a>, London: <i>Landscape Plus</i>. 2016<br><br>
+Sicinski, Michael & Cronk, Jordan. <br>
+&ldquo;Interesting Times: The Year in Avant-Garde Film.&rdquo; <a href="https://www.fandor.com/keyframe/interesting-times-year-avant-garde-film">Fandor</a>. 2016.<br><br>
+Berardini, Andrew. &ldquo;<i>a, the, though, only,</i><br> 
+Made in L.A.&rdquo;<a href="http://www.art-agenda.com/reviews/%E2%80%9Ca-the-though-only%E2%80%9D-made-in-l-a-2016/"> Art Agenda</a>. 2016.<br />
+<br />
+Knight, Christopher. &ldquo; &#39;Made in L.A. 2016&#39;: Hammer Museum biennial proves a thoughtful place to ponder the possibilities.&rdquo;<a href="http://www.latimes.com/entertainment/arts/la-et-cm-knight-hammer-biennial-review-20160622-snap-htmlstory.html"> Los Angeles Times</a>. 2016.
+<br /><br />
+Berardini, Andrew. &ldquo;Made In L.A. 2016: &lsquo;a, the, though, only&rsquo;.&rdquo;</i><a href="https://www.artforum.com/inprint/id=59703">Artforum</a>. May issue 2016.<br /><br />
+<a href="http://filmadrid.com/palmares-filmadrid-2016/">Jury Special Mention FILMADRID</a>, 2016<br />
+<i>Vivir para Vivir/ Live to Live</i><br />
+<br />
+Palacios Cruz, Mar&iacute;a. &ldquo;Beatrice Gibson and Laida Lertxundi: 
+Uncanny Resonances.&rdquo; <a href="sequence4.pdf" target="_blank">Sequence</a> N.4. 2016.<br /><br />
+Palacios Cruz, Mar&iacute;a. &ldquo;Gestures of Embodiment: Two films by Laida Lertxundi,.&rdquo;<a href="https://hammer.ucla.edu/made-in-la-2016/#c12076"> Made in L.A. catalogue</a>. 2016.<br /><br />
+<a href="http://aafilmfest.org/news/209-award-winners-for-the-54th-aaff-announced">Jury Award, Ann Arbor Film Festival</a>. 2016.<br />
+<i>Vivir para Vivir / Live to Live</i>.<br />
+<br />
+Ancira, Andrea. &ldquo;Laida Lertxundi: Efigies de Sonidos.&rdquo; <a href="RevistaCodigo.pdf">Revista C&oacute;digo</a>. N.9. 2016.<br />
+<br />
+Goldberg, Max. &ldquo;Somethings Just Stick in Your mind.&rdquo; <a href="http://sfaq.us/2016/04/some-things-just-stick-in-your-mind-crossroads-2016/">San Francisco Arts and Culture</a>. 2016.<br />
+<br />
+Balsom, Erika. &ldquo;Run the World.&rdquo; <a href="http://www.artforum.com/film/id=58032">Artforum</a>. 2016.<br />
+<br />
+Armas, Miguel. &ldquo;Emotional Cartographies. The films of Laida Lertxundi.&rdquo; <a href="http://lux.org.uk/blog/new-artist-focus-miguel-armas-laida-lertxundi">LUX</a>. 2016.<br />
+<br />
+&ldquo;Best of 2015,<i>Vivir para Vivir / Live to Live</i>.&rdquo; <a href="http://www.lafuriaumana.it/?id=430">La Furia Umana</a>. 2015.<br />
+<br />
+Mayer, Sophie. &ldquo;Bodies and Film.&rdquo; <a href="http://www.bfi.org.uk/news-opinion/sight-sound-magazine/comment/festivals/london-2015/experimenta">Sight and Sound</a>. 2016.<br />
+<br />
+<a href="http://my.calfund.org/artist-gallery/gallery/year-2015/laida-lertxundi/">CCF Fellowship for Visual Artists</a> Recipient. 2015.<br />
+<br />
+Estrada, Javier. Entrevista. <a href="http://revistasala1.com/?p=7235">Filmadrid</a>. June 2015.<br />
+<br />
+<a href="http://www.tabakalera.eu/programa/landscape-plus/">Tabakalera</a>: <i>Lansdscape Plus</i> taller Laida Lertxundi, Februrary 2015.<br />
+<br />
+Lertxundi, Laida. &ldquo;Espacios de Libertad.&rdquo; <a href="http://noticiasplaytime.blogspot.com.es/2014/12/espacios-de-libertad.html"> Playtime</a>. 2015.<br />
+<br />
+Lertxundi, Laida. &ldquo;Looking back on 2014.&rdquo;<a href="http://bombmagazine.org/article/04811210/looking-back-on-2014-3/"> BOMB Magazine</a>. 
+2014.<br>
+<br />
+<i>Best of 2014, Utskor: Either/Or</i> and <i>We Had The Experience But Missed the Meaning</i>. <a href="http://sensesofcinema.com/2015/world-poll-2/2014-world-poll-part-1/">Senses of Cinema</a>. 2014.<br />
+<br />
+Bradshaw, Katie. &ldquo;Laida Lertxundi.&rdquo; <a href="http://bombmagazine.org/article/1000289/laida-lertxundi">BOMB Magazine</a>. 2014.<br />
+<br />
+Armas, Miguel. &ldquo;Mis L&aacute;grimas Est&aacute;n Secas.&rdquo; <a href="http://www.elumiere.net/numero7/01_WEB/num07_issuu.php">LUMI&Egrave;RE. 07</a>. 2014.<br />
+<br />
+Collado, Esperanza. &ldquo;Aqu&iacute; y Ahora: El Cine de Laida Lertxundi.&rdquo; <a href="AquiYAhora.pdf">
+LUMI&Egrave;RE. 07</a>. 2014.<br />
+<br />
+Molina, &Aacute;ngela. &ldquo;Laida Lertxundi.&rdquo; Babelia. <a href="Babelia.jpg">El Pa&iacute;s</a>. 2014.<br />
+<br />
+Yue, Genevieve. &ldquo;Festivals: Ann Arbor.&rdquo; <a href="http://filmcomment.com/entry/festivals-ann-arbor-2014">Film Comment</a>. 2014.<br />
+<br />
+
+Estrada, Javier. &ldquo;Paisajes Emocionales.&rdquo; <a href="https://www.caimanediciones.es/numero/25-76-marzo-2014/">Caim&aacute;n Cuadernos de 
+Cine</a>. N 25. 2014.<br />
+<br />
+Bianconi, Gianpaolo. &ldquo;Festivals: Migrating Forms.&rdquo; <a href="http://www.filmcomment.com/blog/festivals-migrating-forms-2013/">Film 
+Comment</a>. 2014.<br />
+<br />
+Pinkerton, Nick. &ldquo;In Rare Form.&rdquo; <a href="http://artforum.com/film/id=44333">Artforum</a>. 2013.<br />
+<br />
+Thorne, Sam. &ldquo;Lofoten International Film Festival.&rdquo; <a href="https://frieze.com/article/lofoten-international-art-festival-2013">Frieze</a>. No.161. 2014.<br />
+<br />
+Basciano, Oliver. &ldquo;The 12th Biennale de Lyon: <i>Meanwhile...Suddenly and Then</i>.&rdquo; <a href="http://artreview.com/reviews/november_2013_review_12th_biennale_de_lyon/">ArtReview</a>. 2013.<br />
+<br />
+Yue, Genevieve. &ldquo;Walkin&rsquo; in the Sand: Interview with Laida Lertxundi.&rdquo;<a href="http://fq.ucpress.edu/content/66/2/35"> 
+Film Quarterly</a>. Vol.  66, N.2. 2012.<br />
+<br />
+Gottlieb, Akiva. &ldquo;Last Picture Shows: Film and Obsolescence.&rdquo; <a href="http://www.thenation.com/article/170020/last-picture-shows-film-and-obsolescence">The Nation</a>. 2012.<br />
+<br />
+Fox, Dan. &ldquo;Artist in Focus: Laida Lertxundi.&rdquo; <a href="https://frieze.com/article/focus-laida-lertxundi">Frieze</a>. N.152. 2013.<br />
+<br />
+<a href="http://www.shootonline.com/go/index.php?name=Release&amp;op=view&amp;id=rs-web3-1288568-1349281010-2">Kazuko Trust</a> Award. 
+Film Society of Lincoln Center. 2012.
+<br /><br>
+Fox, Dan. &ldquo;Whitney Biennial2012.&rdquo; <a href="http://www.frieze.com/issue/review/whitney-biennial-2012/">Frieze</a>. N.149. 2012.<br />
+<br />
+<a href="http://www.thislongcentury.com/?p=5607&amp;c=194">This Long Century. Laida Lertxundi. 194.</a><br />
+<br />
+Coldiron, Phil. &ldquo;Eight Footnotes on a Brief Description of Footnotes to a House of Love, and Other Films by Laida Lertxundi.&rdquo; <a href="http://cinema-scope.com/features/eight-footnotes-brief-description-footnotes-house-love-other-films-laida-lertxundi/">Cinema Scope</a>. N.51. 2012.
+<br />
+<br />
+Sweeney, R. Emmet. &ldquo;Together at Last: The Whitney Biennial.&rdquo; <a href="http://www.filmlinc.com/blog/entry/together-at-last-the-whitney-biennial-2012-film-video-program">Film Comment</a>.  2012.<br />
+<br />
+Jury Award. <a href="http://aafilmfest.org/news/114-50th-aaff-jury-awards">Ann Arbor Film Festival</a>. 2012.<br />
+<br />
+<a href="http://whitney.org/Events/LaidaLertxundiScreening">Whitney Museum of American Art: 2012 Biennial</a><br />
+<br />
+<a href="http://www.youtube.com/watch?v=_nLxFqmwtmA">Video Interview with Curators Ed Halter and Thomas Beard</a>. Whitney Biennial. 2012.<br />
+<br />
+Young, Paul David. &ldquo;Film in Spotlight at the Whitney Biennial.&rdquo; <a href="http://www.artinamericamagazine.com/news-features/previews/whitney-biennial-film-preview/">Art in America</a>. February. 2012.<br />
+<br />
+Lertxundi, Laida. &ldquo;Los A&ntilde;geles sin Hollywood.&rdquo; <a href="http://www.revistabostezo.com/PDF/BOSTEZO_06.pdf">Bostezo. Revista de Arte y Pensamiento</a>. 2012.<br />
+<br />
+Yue, Genevieve. &ldquo;Views from the Avant-Garde.&rdquo; <a href="http://reverseshot.com/article/views_avantgarde_2011">Reverseshot</a>. 2011.<br />
+<br />
+Best Short Form Work. <em>Llora Cuando Te Pase / Cry When It Happens</em>. <a href="http://migratingforms.org/2011/06/migrating-forms-2011-awards/">Migrating Forms</a>. 2011.<br />
+<br />
+
+Georgi, Steffen. <a href="2011-08-12-LVZ-Reihe-Experimentalfilm-Laida%20Lertxundi-S11.pdf">Leipziger Volkszeitung</a>. 2011.<br />
+<br />
+<a href="http://www.cciarts.org/_Library/ARC_Grants_Past_Awards/ARC_Q2PressRelease2011.pdf">ARC Grant</a> Recipient. 2011<br />
+<br />
+Phelps, David. &ldquo;Heaven of Our Own / As If.&rdquo; <a href="http://bombmagazine.org/article/4675/heaven-of-our-own-as-if">BOMB Magazine</a>. 2010.<br />
+<br />
+Anderson, Jason. &ldquo;Ecstatic Traditions&rdquo; <a href="http://artforum.com/film/id=27168">Artforum</a>. 2010.<br />
+<br />
+<a href="fragmentos_pressbook.pdf">FRAGMENTOS para una historia del otro cine espa&ntilde;ol</a>. 2010.<br>
+<br />
+Tom Berman Most Promising Filmmaker Award. <a href="http://48.aafilmfest.org/2010/03/award-winners-announced-for-48th-ann_28.php"> Ann Arbor Film Festival</a>. 2010.<br />
+<br />
+&ldquo;25 Filmmakers for the 21st Century: A Decade in the Dark: Avant-Garde Film and Video 2000-2009.&rdquo; <a href="Final%20Poll.pdf">Film Comment</a>. 2010.<br />
+<br />
+Reeves, Jennifer. &ldquo;Decade in Review.&rdquo; <a href="http://cinema-scope.com/reviews/jennifer-reeves/">CinemaScope</a>. N.42. 2010.<br />
+<br />
+<!--<img src="extasis.jpg" _wpro_src="extasis.jpg" width="100"><br />
+-->
+Grand Prize of Basque Cinema. <b>ZineBi</b>. 2007.<br />
+<br />
+53rd <b>Robert Flaherty Film Seminar</b> &mdash; Fellowship recipient. 2007.<br />
+<br />
+<b>Maya Deren, Film Award. Bard College</b>. 2003.<br />
+<br />
+<a href="LL.jpg"><img alt="" border="0" src="clear32.gif" /></a><br />
+<br />
+<br />
+<a href="Laida.JPG"><img alt="" border="0" src="clear32.gif" /></a></div>
+</div>
+
+<p><em><em><!--END HOLDER --><!--
+<div id="events"><span class="sectitle"><br /><br /></span>
+Laida Lertxundi (Bilbao, 1981) works on film making non-stories with non-actors that play with diegeticspace and a particular sound and image syntax to create moments of downtime, of a time between
+events. Her work has been shown internationally in museums and festivals such as MoMa, Lacma, Viennale and the New York Film Festival views of the Avant Garde. She has been a programmer for Centre de Cultura Contempor&aacute;nea de Barcelona since 2002 and has also programmed for ZineBi a the Guggenheim Bilbao, CalArts and UCSD. She teaches film at the University of California San Diego.<br /><br /><a href="#">download CV</a></div>
+--></em></em></p>
+</body>
+</html>
